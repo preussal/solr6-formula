@@ -28,6 +28,7 @@ solr6-download:
   file.managed:
     - name: {{ archive_file }}
     - source: {{ archive_src }}
+    - replace: false
 {%-   if "source_hash" is defined %}
     - source_hash: {{ source_hash }}
 {%-   else %}
