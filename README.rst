@@ -19,3 +19,4 @@ Available states
 ------------
 
 Installs the solr6 package, and starts the associated solr6 service.
+
